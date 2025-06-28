@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <div className="flex w-full h-full justify-center items-center">
-      App Page
+    <div className="flex h-full w-full items-center justify-center">
+      <p>Hello</p>
     </div>
   );
 }

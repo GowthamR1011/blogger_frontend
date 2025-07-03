@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, CardTitle, CardContent } from "../ui/card";
-type Props = { key: number; title: string; summary: string };
+
+type Props = { key: number; title: string; summary: string; id: string };
 
 export default function BlogCard({ title, summary }: Props) {
   return (
